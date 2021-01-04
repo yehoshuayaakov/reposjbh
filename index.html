@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+       img{
+            height: 70px;
+            width: 150px;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+        }
+        body{
+            
+        }
+    </style>
+</head>
+<body>
+        <div class= "container-fluid">
+            <h1 class="bg-light mb-0">Bus Tickets</h1>         
+                <nav class="d-flex navbar navbar-light bg-light">  
+                    <form style ='width:100%'>
+                    <div class="row">
+                        <div class="col-2 mb-3 ">
+                            <select class="form-control" type="select" aria-label="Default select example">
+                                <option selected>Departure</option>
+                                <option value="Washington">Washington</option>
+                                <option value="New York">New York</option>
+                                <option value="Philadelphia">Philadelphia</option>
+                            </select>
+                        </div>
+                        <div class="col-2 mb-3">
+                            <select class="form-control" text="select" aria-label="Default select example">
+                                <option selected>Destination</option>
+                                <option value="Washington">Washington</option>
+                                <option value="New York">New York</option>
+                                <option value="Philadelphia">Philadelphia</option>
+                            </select>
+                        </div>
+                        <div class="col-2">
+                            <input class="form-control me-2" type="date" placeholder="Search" aria-label="Search">
+                        </div>
+                        <div class="col-2">   
+                            <input class="form-control me-2" type="date" placeholder="Search" aria-label="Date of return">
+                        </div>
+                        <div class="col-4  text-right">
+                            <input class="btn btn-warning ml-auto" type="submit" value="Submit">
+                        </div>
+                    </div>
+             </form>
+        </div>
+      </nav>
+      <div class= "container-fluid pt-5"></div>
+      <div class="row"></div>
+    </div>
+    </div>
+    <div class= "container-fluid pt-3 mr-3 ml-3">
+    <div class="row border-top border-bottom border-dark mb-5 justify-content-center mr-3">
+            
+            <div class="col-1 border-right border-left border-dark  p-2 font-italic font-weight-bold bg-light text-center text-large padding-top-15">Hour</div>
+       
+        <div class="col-2 border-right border-dark p-2 bg-primary text-center">&dollar;10
+                <span class ="small font-italic align-top">00</span>
+            </div>
+            <div class="col-2 border-right border-dark p-2 bg-primary text-center">&dollar;15
+                    <span class ="small font-italic align-top">00</span>
+            </div>
+                <div class="col-2 border-right border-dark p-2 bg-primary text-center">&dollar;20
+                        <span class ="small font-italic align-top">00</span>
+                </div>
+                    <div class="col-2 border-right border-dark p-2 bg-primary text-center">&dollar;23
+                            <span class ="small font-italic align-top">00</span>
+                    </div>
+                        <div class="col-2 border-right border-dark p-2 bg-primary text-center">&dollar;28
+                                <span class ="small font-italic align-top">00</span>
+                        </div>
+                           <div class="col-1 border-right border-left border-dark  p-2 font-italic font-weight-bold bg-light text-center text-large">Arrival time</div>
+        
+        </div>
+    <div class="row border-bottom border-top mr-3">
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">10:00 am</div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Superbuslogo.jpg/220px-Superbuslogo.jpg" alt="superbuslogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;" >
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Egged.svg/220px-Flag_of_Egged.svg.png" alt="egedlogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/KavimLogo.svg/250px-KavimLogo.svg.png" alt="KavimLogo" style="height: 60px;">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Illitbuslogo.JPG/220px-Illitbuslogo.JPG" alt="Illitbuslogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                <img src="data:image/jpeg;base64,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" alt="afikimlogo" style="height: 80px">
+            </div>
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">11:28 am</div>
+    </div>
+    <div class="row border-bottom mr-3" style="background-color: lightcyan;">
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">12:15 pm</div>
+            <div class="col-2 border-right p-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Superbuslogo.jpg/220px-Superbuslogo.jpg"  alt="superbuslogo" >
+                </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Egged.svg/220px-Flag_of_Egged.svg.png" alt="egedlogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/KavimLogo.svg/250px-KavimLogo.svg.png" alt="KavimLogo" style="height: 60px;">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Illitbuslogo.JPG/220px-Illitbuslogo.JPG" alt="Illitbuslogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                <img src="data:image/jpeg;base64,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" alt="afikimlogo" style="height: 80px">
+            </div>
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">1:45 pm</div>
+    </div>
+    <div class="row border-bottom mr-3">
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">2:45 pm</div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Superbuslogo.jpg/220px-Superbuslogo.jpg" alt="superbuslogo">
+                </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Egged.svg/220px-Flag_of_Egged.svg.png" alt="egedlogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/KavimLogo.svg/250px-KavimLogo.svg.png" alt="KavimLogo" style="height: 60px;">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Illitbuslogo.JPG/220px-Illitbuslogo.JPG" alt="Illitbuslogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                <img src="data:image/jpeg;base64,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" alt="afikimlogo" style="height: 80px">
+            </div>
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">4:19 pm</div>
+    </div>
+    <div class="row border-bottom mr-3">
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">4:40 pm</div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Superbuslogo.jpg/220px-Superbuslogo.jpg" alt="superbuslogo">
+                </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Egged.svg/220px-Flag_of_Egged.svg.png" alt="egedlogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/KavimLogo.svg/250px-KavimLogo.svg.png" alt="KavimLogo" style="height: 60px;">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Illitbuslogo.JPG/220px-Illitbuslogo.JPG" alt="Illitbuslogo">
+            </div>
+            <div class="col-2 border-right p-2" style="background-color: lightcyan;">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEPEBIQEA8QDxAREhAVEg8QFRAODxUQFxcXGBYTFhcYHSggGRomGxcWITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAPFyseHR0rLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0rLSstLS0rKystLS0tLTcrLS0tKy0rLSstK//AABEIAJEAzwMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBBAcDAv/EAEIQAAICAQEGAQgGBwYHAAAAAAABAgMRBAUGEiExQVEHEyJhgZGhwTJScYKx0RYjU2JzkuEUJEJDVKMVM3KTssLS/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwUEBv/EACIRAQACAgICAgMBAAAAAAAAAAABAgMRBDESIQVBEyJRMv/aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAAGAMgCAAEgEMBLIGAAGQgCWAAGQMAAMgYIEXtfbENPy+lN9ILly8W+yPDyubXD6+2d8kVVnU7e1E3/wAzgXhBJfF82cTJ8jnt96Yfms8Y7UvjzV1ntfEvjkyjmcivuLSjzsldn7zSTxck19eKw163Hv7D38b5W3WX7+2lcv8AVoqsU4qUWmnhprmsHdpaJiJhvE7ehdIAAqe/uuuphS6rJVqUpKXDhNvCcebXTqWqpZWtmanaOqclTfZJxScsyhHr06otOlY29toPammjx222xjy9JShNJ9s4TwI0TtM7pbyWaiT09zTs4W4WJcLeOqa6ZXXKImExZV3t7Vwnh6m30Z81lYwnzT5eBMQi1lp23oNoyuc9NdN1TUWo8cIcLa5xw+3f2lfS2paH/DdsftZ/9ysncI1LT2k9qaaPHbdZGLaWVOEll9M46CETtu7tbevuV1FljlLzNk67OSmpRXTK6iYI2idj7f1Pn6VPUWSi7IKUW1hpvGHy9YmCLLFv1tu6icKqZuvig5ykscXVpJN9OgrCZshdnS2nqYOym6yUU2s8cI+kllpJ/aNI9vPS7z6zT2cNs5WcMsTqtS4uXVJpZTGjcrftyu7UaeN+junCXCpKEWkpxay4vwkv6FYXsqmwt67qbf7xZO2p8pqf0oPP0ly7d0W0rFnRL7OOqUq5Z4oScJR59U8NFV5lzHQbwapXV8WoslHzkOKLaw45SafLwLxDObOl7T1apqlY+y5Lxk+SXvPFyc8YaTMrzOqqPp6bNTbjOZzbcpPol3b9S8D5bHivyMk+Xbx13eyWq1em01nm1U5uLUZ2vDfF3wn259jo1yYOPeKabbrE6Te1tTTVXxWRjLP0Y4Tcn4I6XJy4KY/KzS81iFKrrlbPhhH0pN4hHov6LxPmYrOW36R39PLFdrdoNRDTurSOXFJxeX2T6pe3nj7F4n0fHy1481wTO5eqk69Jo6TQACEKr5Q6s6WMu8bYc/U1JfNE1RfpCeTqzGosj9apv2qS/NlrKUXTeCnj0t8fGufwWfkVhezmW7F3Bq9PLxmk/skmjSYZw8tv08Gpvj4WTx9jeRBK57xbWuq0Onsplwu1VqU+rScM8s9OhT7Xnp4+T3XWWSvjZZOx4hJcbcu8k8Z6dheEUlveUJ40f221/iKJurm4NfFqpfwZ/FpFrK1QEs1Wvxrs/wDGWfkJV+0/v9ZxamH8GPxbfzFU2WPyeL+6P+LZ+CK2XpCu+UDTcGqU+1sIv70fRfw4Saouse4Gr49JwN86pyX3X6S/FkW7TXpUt7L9PbqHLTqTlz840vQlJd4rrnxfRlo6Untt7n7x/wBnaoul+ol9GT/y5f8Ay/gxMESg6NO7tQq6lxOVno4+rn6XqSXMnejt0LfGeK64+M+fsX9Tg/MTqkR/UZp9PPc6pYsn3yo+zGX8jP4ikTFpVwQhdsxxqLV+/n4JnL5k1rybRPrTPJ6l8X3WamxcuKTwowXRLwXgu7ZS2S+e+u0b8lu2LsmOnhl+lZJelL5L1H0fC4cYab+5eqmOIhUYScb08tyjast822pdT56LWpyNx3t5onVnQ0fYx09rJICEILfSri0N37qjL+WSf4ZJqi/Sk7k3cOtry8KSnHwy2nhe9IvZnV03UJShJZXOMl70Uhq43pJebtg/qWw+EsGkyyh0baW6NGosdzlZGU8OSi1wt4681yKbaRXbX3x0Ea9nxrhnhplXw5eXjnHm/vERPstHpB+Ty3h1Uo/Wql704v8AMtbpSnaY8o2oSorryuKVifD34Yp5f2ZwKpuj/JvTm26zHJQjH1Zbz+CFiiY1e5OmsslNytXG25RUuWX1xy5Fdpmrc2juvpr5RnZx5jGMeU3FcMemRtM1SOz9HVp4KuqKhBdl4vq2+7IlMKd5RtTXLzMIyUrIubeGniLWMP1t45eovVnZG7sWzjp9cotr9Tn73NfhkmeyOmnulNR1lHg24/zRaE9IjtI747u/2eTuqX6mT9KK/wAuT/8AV/AVnabV02dwtp0wl5mcIwsn9C7vL9xvx8PEWgqsW91DlSpL/BJN/wDS+T+LRxflsXnii38MsekdutqXDzno5j6L4sqMU+iTbfVnk+HtMecM8M6eG29FZO2VsISnGeMpL0oySw4yXuZjzuNbJlnJEdoyV2j1p7oPKrti/FKSfvR44xZqe4jUs9aTmw9XbXXbO5z83FLh48puXPks8/A6vCzZa1tbJ1DakzFfaG2dU7b4L601J/YnxN/A5nGi2bPHj1MsqRuzoaPsI9Q9oSAGptPS+epsqzjzkJRz1w2sJ+8CjrcK/wDb1exTXzL+TPxfX6C6n/UQ/wBz8x5Hi+f0Cv8A29X8svzHkRVf6o8MUs5wks/YupRpCM3rq49FevCHF/K1L5CO0W6c/wBz7eHWVYeOLjj7ZRlj44NLdMq9phbi3zlm3UxeessSlL2ZZHkt4rfsbZNekrVdefGUn9KUvFlVohvkLQr+9WxbdYq1Xaq1BybT4ubeMdH25+8tEq2V/wDQXU/6iH+5+ZPkr4s17g2t+nqIJd2oylL4seR4rPoNgV6fTzpry/ORlxTlzk5NYTfqXgV2tpW9nbk3021Weeqfm5wlhKWWl1LbV8V4uqjOLjJKUZJpp800+xRpKjarcSzjk6roRrzmCkpcSXXGU+3iX8mc1WzZ+lt8x5rUyhbLDi5RyuKOMZee5jkrGSJiepXmNwrG0dDGqMtPqI2SplNTrsrfDJyXLD7dO3tRxMeS/BtNZjcS8+vGW7od4owclKtqLxw8L4mkkopPPV4XUY/lqzP7VTGVu2b0Upcozk/DCS9+Te3ymHXr2n80K9tPadmoa4uUV9GuPNZ+bOPn5l88+MR6lja83WHdrZTqTsmsTkuUe8Y+v1s7Px3C/DHlPbbFXSfOs3AAAAAAEaAka20auOm2H1q5r3poInpyvYtNteoom6rFw2Qz6E0sZWe3gafTKO3XTNswBkAAAAAMAZIAaGB3HseWoojZFxnFSi+qfNGeTFXJGrRuEWrtBandaDea7JQ/dfpR/M5eX4is/wCbaYzheEN05f4rl92PP4sxr8LP3dX8KW2fsSqh5S4p/Wlzfs7I6ODgY8fvTWuOISZ7YjXpptkkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==" alt="afikimlogo" style="height: 80px">
+            </div>
+            <div class="col-1 border-right border-left p-2 text-center text font-weight-bold bg-light">6:12 pm</div>
+    </div>
+</div>
+<footer class = "text-center">
+    <div> To purchase a ticket on-line press 
+            <a href="https://www.w3schools.com/">click this link!</a>
+    </div>
+</footer>
+</body>
+</html>
